@@ -485,7 +485,9 @@ The values of `a`, `b`, `c`, `d` do not matter.
 
 ---
 ![Multiple module screenshot](mmopt2.PNG)
-![Multiple module screenshot](mmopt2yosys.PNG)
+![Multiple module screenshot](mmopt22.PNG)
+
+Use opt_clean -purge to remove unused wires, cells, and signals that have become unnecessary after optimization.
 
 ### opt_check
 
