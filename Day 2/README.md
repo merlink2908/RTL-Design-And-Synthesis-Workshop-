@@ -65,7 +65,7 @@ An asynchronous set similarly forces the output to its set state independently o
 
 ## Synchronous Reset
 
-The set operation comes into effect only in the presence of a rising or falling edge of the clock.
+The reset operation comes into effect only in the presence of a rising or falling edge of the clock.
 
 ![DFF sync reset](dffsyncres.PNG)
 ![DFF sync reset waveform](dffsynresy.PNG)
@@ -255,7 +255,7 @@ output [5:0] y;
 assign y = {a, a};
 ```
 
-This duplicates the vector. The generated schematic indicates the corresponding bit-level operation.
+This duplicates the vector. This is equivalent to multiplication by 8.
 
 ![mul8 code](mult8.PNG)
 ![Netlist](mul8netlist.PNG)
